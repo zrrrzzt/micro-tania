@@ -52,8 +52,8 @@
     "tap": "10.2.0"
   },
   "dependencies": {
-    "knuth-shuffle": "1.0.1",
     "marked": "0.3.6",
+    "markov-generator": "1.2.2",
     "micro": "7.0.6"
   }
 }
