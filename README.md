@@ -1,4 +1,6 @@
 # micro-tania
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/micro-tania.svg)](https://greenkeeper.io/)
 My boss needed to automate her most common sayings
 
 ## To get answers
