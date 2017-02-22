@@ -1,7 +1,7 @@
 {
   "name": "micro-tania",
   "description": "My boss needed to automate her most common sayings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.5.0"
+    "node": ">=7.6.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",

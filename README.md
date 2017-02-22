@@ -4,7 +4,9 @@
 
 # micro-tania
 
-My boss needed to automate her most common sayings
+My boss needed to automate her most common sayings...
+
+... I added a bit of Markov to the mix :-)
 
 ## To get answers
 
