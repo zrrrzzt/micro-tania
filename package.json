@@ -57,6 +57,6 @@
   "dependencies": {
     "marked": "0.3.6",
     "markov-generator": "1.2.2",
-    "micro": "7.0.6"
+    "micro": "7.1.0"
   }
 }
