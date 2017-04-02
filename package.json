@@ -48,16 +48,16 @@
   },
   "devDependencies": {
     "ava": "0.18.2",
-    "axios": "0.15.3",
-    "coveralls": "2.11.16",
-    "nsp": "2.6.2",
-    "nyc": "10.1.2",
-    "standard": "8.6.0",
+    "axios": "0.16.0",
+    "coveralls": "2.13.0",
+    "nsp": "2.6.3",
+    "nyc": "10.2.0",
+    "standard": "9.0.2",
     "test-listen": "1.0.1"
   },
   "dependencies": {
     "marked": "0.3.6",
     "markov-generator": "1.2.2",
-    "micro": "7.0.6"
+    "micro": "7.3.0"
   }
 }
