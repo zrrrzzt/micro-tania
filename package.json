@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.6.0"
+    "node": ">=7.8.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -36,6 +36,7 @@
   "bugs": {
     "url": "https://github.com/zrrrzzt/micro-tania/issues"
   },
+  "homepage": "https://github.com/zrrrzzt/micro-tania",
   "now": {
     "alias": [
       "tania.allthethings.win"
