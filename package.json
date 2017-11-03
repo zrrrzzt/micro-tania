@@ -60,6 +60,6 @@
   "dependencies": {
     "markdown-it": "8.4.0",
     "markov-generator": "1.2.2",
-    "micro": "9.0.0"
+    "micro": "9.0.1"
   }
 }
