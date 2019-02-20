@@ -10,7 +10,7 @@ const getAnswer = require('./lib/get-answer')
 module.exports = async (request, response) => {
   const { pathname, query } = await parse(request.url, true)
   if (pathname === '/json' || pathname === '/html') {
-    const results = {description: getAnswer(query.mode || 'normal')}
+    const results = { description: getAnswer(query.mode || 'normal') }
 
     if (pathname === '/json') {
       response.setHeader('Access-Control-Allow-Origin', '*')
