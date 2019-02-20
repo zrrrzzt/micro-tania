@@ -1,0 +1,6 @@
+Dockerfile
+node_modules
+test
+.dockerignore
+.renovate.json
+.travis.yml

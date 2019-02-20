@@ -1,5 +1,3 @@
-'use strict'
-
 const readFileSync = require('fs').readFileSync
 const md = require('markdown-it')()
 const { parse } = require('url')
@@ -17,10 +15,11 @@ module.exports = async (request, response) => {
       response.setHeader('Access-Control-Allow-Methods', 'GET')
       send(response, 200, results)
     } else if (pathname === '/html') {
+      response.setHeader('Content-Type', 'text/html; charset=utf-8')
       send(response, 200, renderPage(results))
     }
   } else {
-    const readme = readFileSync('./README.md', 'utf-8')
+    const readme = readFileSync(`${__dirname}/README.md`, 'utf-8')
     send(response, 200, md.render(readme))
   }
 }

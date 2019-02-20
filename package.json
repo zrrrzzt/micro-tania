@@ -21,7 +21,7 @@
     "standard-fix": "standard --fix",
     "start": "micro",
     "dev": "micro-dev",
-    "deploy": "npm test && now --npm && now alias",
+    "deploy": "now && now alias",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
@@ -38,15 +38,6 @@
     "url": "https://github.com/zrrrzzt/micro-tania/issues"
   },
   "homepage": "https://github.com/zrrrzzt/micro-tania",
-  "now": {
-    "alias": [
-      "tania.allthethings.win"
-    ],
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "type": "npm"
-  },
   "devDependencies": {
     "ava": "1.2.1",
     "axios": "0.18.0",

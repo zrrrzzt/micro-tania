@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "alias": [
+    "tania.allthethings.win"
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "builds": [
+    { "src": "/index.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
+}
