@@ -50,6 +50,6 @@
   "dependencies": {
     "markdown-it": "8.4.2",
     "markov-generator": "1.2.2",
-    "micro": "9.3.3"
+    "micro": "9.3.4"
   }
 }
