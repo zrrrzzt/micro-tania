@@ -48,7 +48,7 @@
     "test-listen": "1.1.0"
   },
   "dependencies": {
-    "markdown-it": "9.0.1",
+    "markdown-it": "9.1.0",
     "markov-generator": "1.2.2",
     "micro": "9.3.4"
   }
