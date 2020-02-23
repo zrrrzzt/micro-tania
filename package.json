@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/zrrrzzt/micro-tania",
   "devDependencies": {
-    "ava": "3.3.0",
+    "ava": "3.4.0",
     "axios": "0.19.2",
     "coveralls": "3.0.9",
     "nyc": "15.0.0",
