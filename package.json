@@ -46,7 +46,7 @@
     "standard": "17.0.0"
   },
   "dependencies": {
-    "markdown-it": "13.0.0",
+    "markdown-it": "14.0.0",
     "markov-generator": "1.2.3",
     "micro": "9.3.4"
   }
